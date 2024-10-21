@@ -1,0 +1,1 @@
+{"model": "Llama 3 8B Instruct", "max_tokens": 4096, "temperature": 2, "messages": [{"role": "user", "content": "{\"id\": \"aicg2024-1\", \"name\": \"Ori\", \"flavorText\": \"A small feline predator that scratches everything with his claws, but can purr to calm friends.\", \"types\": [\"Dark\"], \"supertype\": \"Pok\u00e9mon\", \"subtypes\": [\"Basic\"]}"}]}

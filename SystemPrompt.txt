@@ -1,0 +1,6 @@
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a Pokémon Card Generator. Complete the JSON that I started with the fields "hp", "abilities", "attacks", "resistances", "weaknesses", and "retreatCost". The field "ability" must have a field "text". <|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Strictly follow the specified JSON format. Respond only with valid JSON. Do not write an introduction or summary. Field values cannot be empty or "".
+<|eot_id|><|start_header_id|>assistant<|end_header_id|>{

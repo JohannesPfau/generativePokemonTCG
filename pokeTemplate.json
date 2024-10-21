@@ -1,0 +1,67 @@
+{
+	"name": "Ori",
+	"subname": "",
+	"images": [],
+	"backgroundColor": "white",
+	"cardNumber": "2024",
+	"totalInSet": "",
+	"hitpoints": 70,
+	"illustrator": "Johannes Pfau",
+	"weaknessAmount": 2,
+	"weaknessModifier": "x",
+	"resistanceAmount": 30,
+	"resistanceModifier": "-",
+	"retreatCost": 3,
+	"dexStats": "AI-Driven Content Generation 2024 @Utrecht University",
+	"dexEntry": "A ferocious feline predator that rips everything apart with his claws.",
+	"customRotationIconText": "G",
+	"customSetIconText": "AICG",
+	"moves": [
+		{
+			"id": "spnjOKyJvl_LxkivCeXXx",
+			"name": "Feral Instinct",
+			"description": "Once during your turn (before you attack), you may move a Basic Energy card from your discard pile to one of your Pokémon's active energy slots.",
+			"order": 0,
+			"isAbility": true,
+			"type": "default"
+		},
+		{
+			"id": "_7T-C4sA7oBvRwTyOnfb5",
+			"type": "default",
+			"name": "Razor Claw",
+			"description": "",
+			"damageAmount": "30",
+			"energyCost": [
+				{
+					"amount": 1,
+					"typeId": 7
+				}
+			],
+			"order": 2,
+			"isAbility": false
+		},
+		{
+			"id": "CVI2_9wcz4Yo-ugXziSul",
+			"type": "default",
+			"name": "Feral Frenzy",
+			"description": "This attack does 10 damage to each of your opponent's Pokémon.",
+			"damageAmount": "60",
+			"energyCost": [
+				{
+					"amount": 2,
+					"typeId": 7
+				}
+			],
+			"order": 3,
+			"isAbility": false
+		}
+	],
+	"baseSetId": 3,
+	"supertypeId": 1,
+	"typeId": 7,
+	"subtypeId": 1,
+	"weaknessTypeId": 4,
+	"setIconId": 42,
+	"rotationIconId": 7,
+	"rarityIconId": 3
+}
