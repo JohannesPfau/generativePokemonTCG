@@ -36,7 +36,7 @@ Outputs of both can be imported/uploaded to https://pokecardmaker.net/creator wh
 <img src="examples/Ori.png" height="450"><img src="examples/Atrona.png" height="450">
 
 # Limitations
-Enough. This initial version serves as a demonstration for the course AI-Driven Content Generation (2024, Utrecht University). It does not verify whether generated abilities/moves are compatible with the trading card logic, and structural format checks of the LLM output are not exhaustive. The output of the pipeline can be double-checked step by step by inspecting the numbered .json files.
-Even if the syntax is correct, there is no guarantee that the generated output makes any sense.
+Enough. This initial version was evaluated during the course AI-Driven Content Generation (2024, Utrecht University) (see: /results). It does not verify whether generated abilities/moves are compatible with the trading card logic, and structural format checks of the LLM output are not exhaustive. The output of the pipeline can be double-checked step by step by inspecting the numbered .json files.
+Even if the syntax is correct, there is no guarantee that the generated output makes any sense - the quality of the semantics of the generated output is highly dependent on the LLM you use.
 
 This project is not produced, endorsed, supported, or affiliated with Nintendo or The Pokémon Company. It pursues no commercial interests. All rights of Pokémon names, appearances, and mechanics are reserved to the former.
