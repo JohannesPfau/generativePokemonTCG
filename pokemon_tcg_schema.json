@@ -1,0 +1,200 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "flavorText": {
+      "type": "string"
+    },
+    "types": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "supertype": {
+      "type": "string"
+    },
+    "subtypes": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "level": {
+      "type": "string"
+    },
+    "hp": {
+      "type": "string"
+    },
+    "evolvesFrom": {
+      "type": "string"
+    },
+    "abilities": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "text": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "name",
+            "text",
+            "type"
+          ]
+        }
+      ]
+    },
+    "attacks": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "cost": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "convertedEnergyCost": {
+              "type": "integer"
+            },
+            "damage": {
+              "type": "string"
+            },
+            "text": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "name",
+            "cost",
+            "convertedEnergyCost",
+            "damage",
+            "text"
+          ]
+        }
+      ]
+    },
+    "weaknesses": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string"
+            },
+            "value": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "type",
+            "value"
+          ]
+        }
+      ]
+    },
+    "retreatCost": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "convertedRetreatCost": {
+      "type": "integer"
+    },
+    "number": {
+      "type": "string"
+    },
+    "artist": {
+      "type": "string"
+    },
+    "rarity": {
+      "type": "string"
+    },
+    "nationalPokedexNumbers": {
+      "type": "array",
+      "items": [
+        {
+          "type": "integer"
+        }
+      ]
+    },
+    "images": {
+      "type": "object",
+      "properties": {
+        "small": {
+          "type": "string"
+        },
+        "large": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "small",
+        "large"
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "flavorText",
+    "types",
+    "supertype",
+    "subtypes",
+    "level",
+    "hp",
+    "evolvesFrom",
+    "abilities",
+    "attacks",
+    "weaknesses",
+    "retreatCost",
+    "convertedRetreatCost",
+    "number",
+    "artist",
+    "rarity",
+    "nationalPokedexNumbers",
+    "images"
+  ]
+}
