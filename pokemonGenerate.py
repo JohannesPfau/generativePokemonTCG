@@ -487,7 +487,7 @@ if __name__ == '__main__':
         "supertype": "Pok\u00e9mon",
         "subtypes": ["Basic"]
     }
-    LMStudio_server_address = 'http://localhost:8888/'
+    LMStudio_server_address = 'http://95.99.38.192:8888/'
     listAvailableModels(LMStudio_server_address)
     promptLMStudio(pokeName, pokeTCGDict, model, systemPrompt, LMStudio_server_address, use_RAG=use_RAG, num_RAG_samples=num_RAG_samples, temperature=temperature)
 
@@ -500,4 +500,4 @@ if __name__ == '__main__':
     lora_strength_pokemon = 0.4
     workflow_template = 'pokemon-niji-F1.json'
     comfyUI_server_address = 'http://95.99.38.192:8000/'
-    # promptComfyUI(diffusion_prompt, workflow_template, steps, cfg, denoise, lora_strength_niji, lora_strength_pokemon, comfyUI_server_address, randomize_seed=True)
+    promptComfyUI(diffusion_prompt, workflow_template, steps, cfg, denoise, lora_strength_niji, lora_strength_pokemon, comfyUI_server_address, randomize_seed=True)
