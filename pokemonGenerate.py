@@ -492,6 +492,7 @@ if __name__ == '__main__':
         "subtypes": ["Basic"]
     }
     LMStudio_server_address = 'http://95.99.38.192:8888/'
+    # LMStudio_server_address = 'http://localhost:1234/' # In case of local LMStudio server; make sure port is correct
     listAvailableModels(LMStudio_server_address)
     promptLMStudio(pokeName, pokeTCGDict, model, systemPrompt, LMStudio_server_address, use_RAG=use_RAG, num_RAG_samples=num_RAG_samples, temperature=temperature)
 
