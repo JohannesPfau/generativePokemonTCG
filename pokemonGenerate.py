@@ -70,6 +70,10 @@ def promptLMStudio(pokeName, pokeDict, model, systemPrompt, LMStudio_server_addr
             }
         }
     }
+
+    if not os.path.exists("output"):
+        os.makedirs("output")
+
     # Save the prompt to a file
     with open(os.path.join("output", pokeName + '_1_LLMprompt.json'), 'w+') as f:
         json.dump(payload, f)
