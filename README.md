@@ -32,8 +32,8 @@ Prompts ComfyUI to generate a Pokémon Card artwork according to the input (name
 
 Outputs of both can be imported/uploaded to https://pokecardmaker.net/creator which results in a composed card image.
 
-# Examples
-<img src="examples/Ori.png" height="450"><img src="examples/Atrona.png" height="450">
+# Example
+<img src="example/Ori.png" height="450">
 
 # Limitations
 Enough. This initial version was evaluated during the course AI-Driven Content Generation (2024, Utrecht University) (see: /results). It does not verify whether generated abilities/moves are compatible with the trading card logic, and structural format checks of the LLM output are not exhaustive. The output of the pipeline can be double-checked step by step by inspecting the numbered .json files.
