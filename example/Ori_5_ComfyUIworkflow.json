@@ -53,7 +53,7 @@
   },
   "6": {
     "inputs": {
-      "noise_seed": 74092
+      "noise_seed": 120734
     },
     "class_type": "RandomNoise",
     "_meta": {
@@ -174,7 +174,7 @@
   },
   "16": {
     "inputs": {
-      "text": "Pok\u00e9mon, pokemon, Ori, Dark Type, creature, A small feline predator that scratches everything with his claws, but can purr to calm friends., \nDark gray cat with black nose, white paws and white tail tip, fierce, smirk, jumping, \njumping, battle pose, \nforest background",
+      "text": "Pok\u00e9mon, pokemon, Ori, Darkness Type, creature, A small feline predator that scratches everything with his claws, but can purr to calm friends., \nDark gray cat with black nose, white paws and white tail tip, fierce, smirk, jumping, \njumping, battle pose, \nforest background",
       "clip": [
         "2",
         0
